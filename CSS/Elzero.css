@@ -950,6 +950,11 @@ header .main-nav .Megamenu .links > li > a > i{
 .events .container img{
     max-width: 450px;
 }
+@media (max-width: 767px){
+    .events .container img{
+        max-width: 300px;
+    }
+}
 .events .container .info{
     flex: 1;
     flex-basis: 50%;
@@ -1033,6 +1038,12 @@ header .main-nav .Megamenu .links > li > a > i{
     color: white;
     font-weight: bold;
     font-size: 18px;
+}
+@media (max-width: 767px){
+    .events .container .subcribe form input[type="submit"]{
+        margin: 20px auto 0px;
+        display: block;
+    }
 }
 /* End Events */
 /* Start Pricing */
