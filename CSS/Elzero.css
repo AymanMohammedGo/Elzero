@@ -104,6 +104,20 @@ h1,h2,h3,h4,h5,p{
     border: 2px solid white;
     transition-delay: 0.5s;
 }
+.spinkes{
+    position: relative;
+}
+.spinkes::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    background-image: linear-gradient(135deg,white 25%,transparent 25%),
+    linear-gradient(225deg,white 25%,transparent 25%);
+    background-size: 30px 30px;
+}
 
 
 
